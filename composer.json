@@ -1,0 +1,32 @@
+{
+    "name": "faizalmy/wordpress-plugin",
+    "description": "The Wordpress Plugins description.",
+    "version": "1.0.0",
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "authors": [
+        {
+            "name": "Faizal",
+            "email": "author@example.com"
+        }
+    ],
+    "respositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/faizalmy/wordpress-plugin"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "WordpressPlugin\\": "includes/"
+        },
+        "classmap": ["app/"],
+        "files": []
+    },
+    "homepage": "https://github.com/faizalmy/wordpress-plugin",
+    "minimum-stability": "dev"
+}
